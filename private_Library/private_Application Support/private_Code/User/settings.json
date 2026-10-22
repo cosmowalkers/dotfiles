@@ -1,0 +1,270 @@
+{
+    "editor.fontFamily": " 'Fira Code','Cascadia Code'",
+    "editor.tabSize": 2,
+    "workbench.preferredDarkColorTheme": "Visual Studio Light",
+    "workbench.preferredLightColorTheme": "Material Theme",
+    "debug.console.fontSize": 18,
+    "git.enabled": true,
+    "terminal.integrated.shell.windows": "D:\\Softwares\\git\\Git\\bin\\bash.exe",
+    "terminal.external.windowsExec": "D:\\Softwares\\git\\Git\\bin\\bash.exe",
+    "editor.fontLigatures": true,
+    "window.menuBarVisibility": "toggle",
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.overrideCopy": false,
+    "terminal.integrated.allowChords": false,
+    "emmet.triggerExpansionOnTab": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitNotFoundWarning": true,
+        "suppressGitMissingWarning": true,
+        "suppressGitVersionWarning": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "terminal.integrated.fontSize": 16,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderWhitespace": "none",
+    "cSpell.userWords": [
+        "arrayof",
+        "Cascader",
+        "coolkernel",
+        "daterange",
+        "dayrange",
+        "mengxiangyu",
+        "MIJIA",
+        "Miot",
+        "mixjs",
+        "mtop",
+        "Pagable",
+        "tonetue",
+        "vite",
+        "vitejs",
+        "vuepress",
+        "xiaomi",
+        "YYYYMMDD"
+    ],
+    "editor.fontSize": 16,
+    "turboConsoleLog.delimiterInsideMessage": "🌈",
+    "turboConsoleLog.addSemicolonInTheEnd": true,
+    "turboConsoleLog.includeFileNameAndLineNum": false,
+    "turboConsoleLog.logMessagePrefix": "🥶",
+    "[json]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "extensions.autoUpdate": "off",
+    "fileheader.configObj": {
+        "createFileTime": true,
+        "language": {
+            "languagetest": {
+                "head": "/$$",
+                "middle": " $ @",
+                "end": " $/",
+                "functionSymbol": {
+                    "head": "/** ",
+                    "middle": " * @",
+                    "end": " */"
+                },
+                "functionParams": "js"
+            }
+        },
+        "autoAdd": false,
+        "autoAddLine": 1,
+        "autoAlready": true,
+        "annotationStr": {
+            "head": "/*",
+            "middle": " * @",
+            "end": " */",
+            "use": false
+        },
+        "headInsertLine": {
+            "php": 2,
+            "sh": 2
+        },
+        "beforeAnnotation": {
+            "文件后缀": "该文件后缀的头部注释之前添加某些内容"
+        },
+        "afterAnnotation": {
+            "文件后缀": "该文件后缀的头部注释之后添加某些内容"
+        },
+        "specialOptions": {
+            "特殊字段": "自定义比如LastEditTime/LastEditors"
+        },
+        "switch": {
+            "newlineAddAnnotation": true
+        },
+        "supportAutoLanguage": [],
+        "prohibitAutoAdd": [
+            "json"
+        ],
+        "folderBlacklist": [
+            "node_modules",
+            "文件夹禁止自动添加头部注释"
+        ],
+        "prohibitItemAutoAdd": [
+            "项目的全称, 整个项目禁止自动添加头部注释, 可以使用快捷键添加"
+        ],
+        "moveCursor": true,
+        "dateFormat": "YYYY-MM-DD HH:mm:ss",
+        "atSymbol": [
+            "@",
+            "@"
+        ],
+        "atSymbolObj": {
+            "文件后缀": [
+                "头部注释@符号",
+                "函数注释@符号"
+            ]
+        },
+        "colon": [
+            ": ",
+            ": "
+        ],
+        "colonObj": {
+            "文件后缀": [
+                "头部注释冒号",
+                "函数注释冒号"
+            ]
+        },
+        "filePathColon": "路径分隔符替换",
+        "showErrorMessage": false,
+        "writeLog": false,
+        "wideSame": false,
+        "wideNum": 13,
+        "functionWideNum": 0,
+        "CheckFileChange": false,
+        "createHeader": true,
+        "useWorker": false,
+        "designAddHead": false,
+        "headDesignName": "random",
+        "headDesign": false,
+        "cursorModeInternalAll": {},
+        "openFunctionParamsCheck": true,
+        "functionParamsShape": [
+            "{",
+            "}"
+        ],
+        "functionBlankSpaceAll": {},
+        "functionTypeSymbol": "*",
+        "typeParamOrder": "type param",
+        "customHasHeadEnd": {},
+        "throttleTime": 60000
+    },
+    "fileheader.cursorMode": {},
+    "fileheader.customMade": {
+        // 头部注释默认字段
+        "Author": "mengxiangyu",
+        "Date": "Do not edit", // 设置后默认设置文件生成时间
+        "LastEditTime": "Do not edit", // 设置后，保存文件更改默认更新最后编辑时间
+        "LastEditors": "your name", // 设置后，保存文件更改默认更新最后编辑人
+        "Description": ""
+    },
+    "prettier.withNodeModules": true,
+    "gitlens.views.commits.avatars": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "react-native-tools.showUserTips": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.exe": "default"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "gitlens.fileAnnotations.command": "blame",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.gdefault": true,
+    "vim.handleKeys": {
+        "<C-d>": true
+    },
+    "vim.highlightedyank.enable": true,
+    "vim.hlsearch": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1a1a1a",
+        "statusBar.noFolderBackground": "#0a0a0d",
+        "statusBar.debuggingBackground": "#511f1f"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Monokai",
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vscode-edge-devtools.fallbackRevision": "@f7af80761c68124fe8e0fff52a5918d20448c1a4",
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+    "editor.largeFileOptimizations": false,
+    "editor.inlineSuggest.enabled": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange",
+    "workbench.sideBar.location": "right",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.osx": "",
+    "security.workspace.trust.untrustedFiles": "open",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "redhat.telemetry.enabled": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.inlayHints.enabled": "on",
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "editor.inlayHints.padding": true,
+    // "editor.formatOnSave": true
+    // "files.refactoring.autoSave": false,
+    // "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "projectManager.git.baseFolders": [
+        "~/Personal/work"
+    ],
+    "vim.leader": " ",
+    "remote.extensionKind": {
+        "GitHub.copilot": [
+            "ui"
+        ],
+        "github.copilot-chat": [
+            "ui"
+        ]
+    },
+    "labuladong-leetcode.workspaceFolder": "",
+    "workbench.externalBrowser": "edge",
+    "open-in-browser.default": "edge",
+    "chat.mcp.gallery.enabled": true
+}

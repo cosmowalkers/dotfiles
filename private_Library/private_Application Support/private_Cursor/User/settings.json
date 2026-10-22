@@ -1,0 +1,472 @@
+{
+    "editor.fontFamily": " 'Fira Code','Cascadia Code'",
+    "editor.tabSize": 2,
+    "workbench.preferredDarkColorTheme": "Visual Studio Light",
+    "workbench.preferredLightColorTheme": "Material Theme",
+    "debug.console.fontSize": 18,
+    "git.enabled": true,
+    "terminal.integrated.shell.windows": "D:\\Softwares\\git\\Git\\bin\\bash.exe",
+    "terminal.external.windowsExec": "D:\\Softwares\\git\\Git\\bin\\bash.exe",
+    "editor.fontLigatures": true,
+    "window.menuBarVisibility": "toggle",
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [],
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.overrideCopy": false,
+    "terminal.integrated.allowChords": false,
+    "emmet.triggerExpansionOnTab": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitNotFoundWarning": true,
+        "suppressGitMissingWarning": true,
+        "suppressGitVersionWarning": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "terminal.integrated.fontSize": 16,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderWhitespace": "none",
+    "cSpell.userWords": [
+        "arrayof",
+        "Cascader",
+        "checkin",
+        "coolkernel",
+        "daterange",
+        "dayrange",
+        "mengxiangyu",
+        "MIJIA",
+        "Miot",
+        "mixjs",
+        "mtop",
+        "Pagable",
+        "Supercluster",
+        "tonetue",
+        "vite",
+        "vitejs",
+        "vuepress",
+        "xiaomi",
+        "YYYYMMDD"
+    ],
+    "editor.fontSize": 16,
+    "turboConsoleLog.delimiterInsideMessage": "🌈",
+    "turboConsoleLog.addSemicolonInTheEnd": true,
+    "turboConsoleLog.includeFileNameAndLineNum": false,
+    "turboConsoleLog.logMessagePrefix": "🥶",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "extensions.autoUpdate": false,
+    "fileheader.configObj": {
+        "createFileTime": true,
+        "language": {
+            "languagetest": {
+                "head": "/$$",
+                "middle": " $ @",
+                "end": " $/",
+                "functionSymbol": {
+                    "head": "/** ",
+                    "middle": " * @",
+                    "end": " */"
+                },
+                "functionParams": "js"
+            }
+        },
+        "autoAdd": false,
+        "autoAddLine": 1,
+        "autoAlready": true,
+        "annotationStr": {
+            "head": "/*",
+            "middle": " * @",
+            "end": " */",
+            "use": false
+        },
+        "headInsertLine": {
+            "php": 2,
+            "sh": 2
+        },
+        "beforeAnnotation": {
+            "文件后缀": "该文件后缀的头部注释之前添加某些内容"
+        },
+        "afterAnnotation": {
+            "文件后缀": "该文件后缀的头部注释之后添加某些内容"
+        },
+        "specialOptions": {
+            "特殊字段": "自定义比如LastEditTime/LastEditors"
+        },
+        "switch": {
+            "newlineAddAnnotation": true
+        },
+        "supportAutoLanguage": [],
+        "prohibitAutoAdd": [
+            "json"
+        ],
+        "folderBlacklist": [
+            "node_modules",
+            "文件夹禁止自动添加头部注释"
+        ],
+        "prohibitItemAutoAdd": [
+            "项目的全称, 整个项目禁止自动添加头部注释, 可以使用快捷键添加"
+        ],
+        "moveCursor": true,
+        "dateFormat": "YYYY-MM-DD HH:mm:ss",
+        "atSymbol": [
+            "@",
+            "@"
+        ],
+        "atSymbolObj": {
+            "文件后缀": [
+                "头部注释@符号",
+                "函数注释@符号"
+            ]
+        },
+        "colon": [
+            ": ",
+            ": "
+        ],
+        "colonObj": {
+            "文件后缀": [
+                "头部注释冒号",
+                "函数注释冒号"
+            ]
+        },
+        "filePathColon": "路径分隔符替换",
+        "showErrorMessage": false,
+        "writeLog": false,
+        "wideSame": false,
+        "wideNum": 13,
+        "functionWideNum": 0,
+        "CheckFileChange": false,
+        "createHeader": true,
+        "useWorker": false,
+        "designAddHead": false,
+        "headDesignName": "random",
+        "headDesign": false,
+        "cursorModeInternalAll": {},
+        "openFunctionParamsCheck": true,
+        "functionParamsShape": [
+            "{",
+            "}"
+        ],
+        "functionBlankSpaceAll": {},
+        "functionTypeSymbol": "*",
+        "typeParamOrder": "type param",
+        "customHasHeadEnd": {},
+        "throttleTime": 60000
+    },
+    "fileheader.cursorMode": {},
+    "fileheader.customMade": {
+        "Author": "mengxiangyu",
+        "Date": "Do not edit",
+        "LastEditTime": "Do not edit",
+        "LastEditors": "your name",
+        "Description": ""
+    },
+    "prettier.withNodeModules": true,
+    "gitlens.views.commits.avatars": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "react-native-tools.showUserTips": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.exe": "default"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "gitlens.fileAnnotations.command": "blame",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.gdefault": true,
+    "vim.handleKeys": {
+        "<C-d>": true
+    },
+    "vim.highlightedyank.enable": true,
+    "vim.hlsearch": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1a1a1a",
+        "statusBar.noFolderBackground": "#0a0a0d",
+        "statusBar.debuggingBackground": "#511f1f"
+    },
+    "workbench.colorTheme": "One Monokai",
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vscode-edge-devtools.fallbackRevision": "@f7af80761c68124fe8e0fff52a5918d20448c1a4",
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+    "editor.largeFileOptimizations": false,
+    "editor.inlineSuggest.enabled": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.osx": "",
+    "security.workspace.trust.untrustedFiles": "open",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "redhat.telemetry.enabled": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.inlayHints.enabled": "on",
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "editor.inlayHints.padding": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "projectManager.git.baseFolders": [
+        "~/Personal/work",
+        "~/Personal/self"
+    ],
+    "vim.leader": " ",
+    "remote.extensionKind": {
+        "GitHub.copilot": [
+            "ui"
+        ],
+        "github.copilot-chat": [
+            "ui"
+        ]
+    },
+    "labuladong-leetcode.workspaceFolder": "/Users/meng/Personal/self/lc-plugin-template/js-template",
+    "workbench.externalBrowser": "edge",
+    "open-in-browser.default": "edge",
+    "debug.onTaskErrors": "debugAnyway",
+    "cmake.options.statusBarVisibility": "visible",
+    "explorer.confirmPasteNative": false,
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": true,
+    "window.commandCenter": true,
+    "workbench.activityBar.orientation": "vertical",
+    "cursor-retrieval.canAttemptGithubLogin": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.scrollback": 10000,
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "pasteImage.path": "${currentFileDir}/images",
+    "editor.maxTokenizationLineLength": 1000000,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": true,
+        "remotes": true,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": false,
+        "repositories": true,
+        "searchAndCompare": true,
+        "launchpad": false
+    },
+    "cursor.inlineDiff.mode": "unified",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "claudeCode.preferredLocation": "panel",
+    "window.autoDetectColorScheme": false,
+    "accessibility.signals.notebookCellFailed": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.notebookCellCompleted": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.diffLineModified": {
+        "sound": "off"
+    },
+    "accessibility.signals.editsUndone": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.positionHasError": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.onDebugBreak": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.progress": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.positionHasWarning": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.chatEditModifiedFile": {
+        "sound": "off"
+    },
+    "accessibility.signals.clear": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.taskFailed": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.taskCompleted": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasError": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasBreakpoint": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasWarning": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "accessibility.signals.lineHasFoldedArea": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.noInlayHints": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.editsKept": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.diffLineInserted": {
+        "sound": "off"
+    },
+    "accessibility.signals.codeActionTriggered": {
+        "sound": "off"
+    },
+    "accessibility.signals.chatRequestSent": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.diffLineDeleted": {
+        "sound": "off"
+    },
+    "accessibility.signals.chatResponseReceived": {
+        "sound": "off"
+    },
+    "accessibility.signals.codeActionApplied": {
+        "sound": "off"
+    },
+    "accessibility.signals.voiceRecordingStarted": {
+        "sound": "off"
+    },
+    "accessibility.signals.voiceRecordingStopped": {
+        "sound": "off"
+    },
+    "accessibility.signals.terminalQuickFix": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.terminalCommandSucceeded": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.terminalCommandFailed": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.terminalBell": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "labuladong-leetcode.labuladongLanguage": "中文",
+    "labuladong-leetcode.hint.configWebviewMarkdown": false,
+    "labuladong-leetcode.defaultLanguage": "javascript",
+    "labuladong-leetcode.siteCookie": "c67ee104-6afe-42cc-8ee4-3f61c3cc1c99",
+    "labuladong-leetcode.filePath": {
+        "default": {
+            "folder": "",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        },
+        "java": {
+            "folder": "src/main/java/leetcode/editor/${endpointType}",
+            "filename": "${PascalCaseName}.${ext}"
+        },
+        "cpp": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "python": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "python3": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "golang": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${snake_case_name}_test.${ext}"
+        },
+        "javascript": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        }
+    },
+    "labuladong-leetcode.customCodeTemplate": "\nimport {ListNode} from \"../common/listNode.js\";\nimport {TreeNode} from \"../common/treeNode.js\";\n\n${question.code}\n\n// your test code here\n\n",
+    "diffEditor.maxComputationTime": 0,
+    "touchfish.wereadCookie": "wr_skey=LKaS6swd; wr_vid=3157218; wr_ql=0; wr_rt=web%40Sasj3fFSgrLI0NC7H6r_AL",
+    "touchfish.enableBilibili": false,
+    "touchfish.enableChiphell": false,
+    "touchfish.enableDouyin": false,
+    "touchfish.enableHupu": false,
+    "touchfish.enableIthome": false,
+    "touchfish.enableLinuxdo": false,
+    "touchfish.enableNetease": false,
+    "touchfish.enableNga": false,
+    "touchfish.enableQqmusic": false,
+    "touchfish.enableV2ex": false,
+    "touchfish.enableWeibo": false,
+    "touchfish.enableX": false,
+    "touchfish.enableXhs": false,
+    "touchfish.enableXiaoyuzhou": false,
+    "touchfish.enableZhihu": false,
+    "projectManager.tags": [
+        "Self",
+        "Work"
+    ]
+}

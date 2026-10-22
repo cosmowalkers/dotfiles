@@ -1,0 +1,69 @@
+" ~/.vimrc — 极简可用配置（无插件，可直接 scp 到服务器复用）
+" 主力编辑器是 nvim(LazyVim)，这份只保证临时改文件时不难受
+
+set nocompatible
+set encoding=utf-8
+filetype plugin indent on
+
+" ---------- 外观 ----------
+syntax enable
+set number
+set cursorline
+set ruler
+set laststatus=2
+set showcmd
+set wildmenu
+set scrolloff=5
+set sidescrolloff=8
+set display+=lastline
+
+" ---------- 搜索 ----------
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+nnoremap <silent> <Esc><Esc> :nohlsearch<CR>
+
+" ---------- 缩进（与 nvim 保持一致：2 空格）----------
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set smartindent
+
+" ---------- 编辑体验 ----------
+" mouse=a 在 SSH 下会影响终端原生选中复制，不需要时执行 :set mouse=
+set mouse=a
+set clipboard=unnamed
+set backspace=indent,eol,start
+set hidden
+set splitbelow
+set splitright
+set timeoutlen=500
+set updatetime=500
+set undolevels=2000
+
+" ---------- 持久化 undo（误删配置可跨会话救回）----------
+if has('persistent_undo')
+  silent! call mkdir($HOME . '/.vim/undodir', 'p')
+  set undodir=~/.vim/undodir
+  set undofile
+endif
+
+" ---------- 键位（沿用 nvim 的习惯）----------
+let mapleader = ' '
+" 注意：映射掉 ";" 后就不能用 ";" 重复 f/t 跳转了，介意的话删掉这行
+nnoremap ; :
+" 可视模式缩进后保持选中
+vnoremap < <gv
+vnoremap > >gv
+" 窗口间跳转
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" ---------- 重新打开文件时回到上次光标位置 ----------
+autocmd BufReadPost *
+  \ if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif

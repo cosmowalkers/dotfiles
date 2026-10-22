@@ -1,0 +1,5 @@
+# nvim 拼写词典编译产物（可重新生成），不入库
+.config/nvim/spell/en.utf-8.add.spl
+.secrets
+# 公司相关配置（本机专属，不入库）
+.company.zsh

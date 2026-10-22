@@ -1,0 +1,101 @@
+return {
+  -- ===== LazyVim avante extra（覆盖默认的 copilot provider）=====
+  {
+    "yetone/avante.nvim",
+    build = "make",
+    event = "VeryLazy",
+    opts = {
+      -- 用自定义 AI 供应商，不再走 copilot
+      provider = "{{ .aiProvider }}",
+      providers = {
+        ["{{ .aiProvider }}"] = {
+          __inherited_from = "openai",
+          endpoint = "{{ .aiEndpoint }}",
+          model = "deepseek-v4-pro",
+          -- 优先从环境变量读，fallback 到硬编码（方便在不同终端用）
+          api_key_name = "{{ .aiApiKeyName }}",
+        },
+      },
+      -- 行为偏好
+      behaviour = {
+        auto_suggestions = false,
+        auto_set_highlight_groups = true,
+        auto_set_keymaps = true,
+        auto_apply_diff_after_generation = false,
+        support_paste_from_clipboard = true,
+        minimize_diff = true,
+      },
+      -- 侧边栏样式
+      windows = {
+        position = "left",
+        wrap = true,
+        width = 24,
+        sidebar_header = {
+          enabled = true,
+          align = "center",
+          rounded = true,
+        },
+      },
+      hints = { enabled = true },
+    },
+    cmd = {
+      "AvanteAsk",
+      "AvanteBuild",
+      "AvanteChat",
+      "AvanteClear",
+      "AvanteEdit",
+      "AvanteFocus",
+      "AvanteHistory",
+      "AvanteModels",
+      "AvanteRefresh",
+      "AvanteShowRepoMap",
+      "AvanteStop",
+      "AvanteSwitchProvider",
+      "AvanteToggle",
+    },
+    keys = {
+      { "<leader>aa", "<cmd>AvanteAsk<CR>", desc = "Ask Avante" },
+      { "<leader>ac", "<cmd>AvanteChat<CR>", desc = "Chat with Avante" },
+      { "<leader>ae", "<cmd>AvanteEdit<CR>", desc = "Edit Avante" },
+      { "<leader>af", "<cmd>AvanteFocus<CR>", desc = "Focus Avante" },
+      { "<leader>ah", "<cmd>AvanteHistory<CR>", desc = "Avante History" },
+      { "<leader>am", "<cmd>AvanteModels<CR>", desc = "Select Avante Model" },
+      { "<leader>an", "<cmd>AvanteChatNew<CR>", desc = "New Avante Chat" },
+      { "<leader>ap", "<cmd>AvanteSwitchProvider<CR>", desc = "Switch Avante Provider" },
+      { "<leader>ar", "<cmd>AvanteRefresh<CR>", desc = "Refresh Avante" },
+      { "<leader>as", "<cmd>AvanteStop<CR>", desc = "Stop Avante" },
+      { "<leader>at", "<cmd>AvanteToggle<CR>", desc = "Toggle Avante" },
+    },
+  },
+
+  -- ===== avante 依赖 =====
+  { "MunifTanjim/nui.nvim", lazy = true },
+  {
+    "HakonHarnes/img-clip.nvim",
+    event = "VeryLazy",
+    opts = {
+      default = {
+        embed_image_as_base64 = false,
+        prompt_for_file_name = false,
+        drag_and_drop = { insert_mode = true },
+        use_absolute_path = true,
+      },
+    },
+  },
+  {
+    "MeanderingProgrammer/render-markdown.nvim",
+    opts = { file_types = { "markdown", "Avante" } },
+    ft = { "markdown", "Avante" },
+  },
+  {
+    "saghen/blink.cmp",
+    optional = true,
+    specs = { "Kaiser-Yang/blink-cmp-avante" },
+    opts = {
+      sources = {
+        default = { "avante" },
+        providers = { avante = { module = "blink-cmp-avante", name = "Avante" } },
+      },
+    },
+  },
+}

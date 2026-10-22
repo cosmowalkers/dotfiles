@@ -1,0 +1,49 @@
+return {
+  {
+    "folke/snacks.nvim",
+    opts = function(_, opts)
+      opts.picker = opts.picker or {}
+      opts.picker.sources = opts.picker.sources or {}
+
+      -- 项目扫描路径
+      opts.picker.sources.projects = vim.tbl_deep_extend(
+        "force",
+        opts.picker.sources.projects or {},
+        {
+          dev = { "{{ .workDir }}" },
+          max_depth = 3,
+        }
+      )
+
+      -- explorer：右侧 + 默认显示隐藏和忽略文件
+      opts.picker.sources.explorer = vim.tbl_deep_extend(
+        "force",
+        opts.picker.sources.explorer or {},
+        {
+          hidden = true,
+          ignored = true,
+          layout = { layout = { position = "right" } },
+        }
+      )
+
+      -- 主题选择器：选中后记住当前系统外观的主题
+      opts.picker.sources.colorschemes = vim.tbl_deep_extend(
+        "force",
+        opts.picker.sources.colorschemes or {},
+        {
+          confirm = function(picker, item)
+            picker:close()
+            if item then
+              picker.preview.state.colorscheme = nil
+              vim.schedule(function()
+                require("config.theme").pick(item.text)
+              end)
+            end
+          end,
+        }
+      )
+    end,
+  },
+
+
+}

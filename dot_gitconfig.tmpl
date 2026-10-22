@@ -1,0 +1,34 @@
+[user]
+	name = cosmow
+	email = mengpangyu@foxmail.com
+[push]
+	default = simple
+[core]
+	quotepath = false
+	editor = nvim
+	autocrlf = input
+	ignorecase = false
+	excludesfile = {{ .chezmoi.homeDir }}/.gitignore_global
+[pull]
+	rebase = false
+[credential]
+	helper = osxkeychain
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /private/var/folders/tx/bk7515nd1s10wcvjggf506100000gn/T/AppTranslocation/18420BDF-2992-4EA8-83BE-8F80A959B937/d/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = {{ .chezmoi.homeDir }}/.stCommitMsg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+{{- if .companyGit }}
+[includeIf "gitdir:{{ .companyGitDir }}"]
+	path = ~/.gitconfig-work
+[open "{{ .companyGitlabUrl }}"]
+	protocol = http
+{{- end }}
